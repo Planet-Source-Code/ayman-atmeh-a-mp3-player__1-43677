@@ -1,0 +1,128 @@
+[Root]
+Most Recent Package=Mp3 Player Setup
+
+
+[Package|Mp3 Player Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Mp3player Setup
+
+[Package|Mp3 Player Setup|Configure DAO ISAMs]
+Applicable=Yes
+Text=No
+Excel=No
+Xbase=No
+Jet 2.x=No
+
+[Package|Mp3 Player Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=No
+
+[Package|Mp3 Player Setup|Files Found]
+
+[Package|Mp3 Player Setup|Files Released]
+
+[Package|Mp3 Player Setup|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSDXM.OCX=
+
+[Package|Mp3 Player Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+
+[Package|Mp3 Player Setup|Files Added]
+
+[Package|Mp3 Player Setup|Files Removed]
+
+[Package|Mp3 Player Setup|Files In Project]
+C:\WINDOWS\Desktop\Mp3 Player.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\rmoc3260.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\Expsrv.dll=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Mp3 Player Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Mp3 Player Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Mp3 Player Setup|Install Locations]
+C:\WINDOWS\Desktop\Mp3 Player.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDXM.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\rmoc3260.dll=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Mp3 Player Setup|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Mp3 Player.exe=No
+C:\WINDOWS\SYSTEM\rmoc3260.dll=No
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Mp3 Player Setup|Distribution]
+Type=single
+Size=
+Title=Mp3 Player
+
+[Package|Mp3 Player Setup|Package]
+PackageFolder=C:\WINDOWS\Desktop\Mp3player Setup
+ProjectFolder=C:\WINDOWS\Desktop\Mp3 Player
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Mp3player Setup\setup.exe
+File2=C:\WINDOWS\Desktop\Mp3player Setup\Setup.Lst
+File3=C:\WINDOWS\Desktop\Mp3player Setup\Mp3 Player.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Mp3 Player Setup|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|Mp3 Player Setup|$(Programs)]
+Icon1="Mp3 Player.exe"
+Title1=Mp3 Player
+StartIn1=$(AppPath)
+Key1=Icon3
